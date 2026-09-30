@@ -66,7 +66,6 @@ class CarModelTest(TestCase):
             manufacturer=manufacturer
         )
 
-
         self.assertEqual(str(car), "Streetwise")
 
     def test_create_car(self):
